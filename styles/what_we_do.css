@@ -1,0 +1,23 @@
+.what_we_do{
+	margin-top: 150px;
+}
+
+.what_orange_line{
+	width: 300px;
+	height: 5px;
+	background-color: #F4692E;
+}
+.what_bg{
+	margin-bottom: 50px;
+}
+.what_bg p{
+	margin: 0 auto;
+	font-size: 16px;
+	font-family: 'Helvetica Now Display';
+	font-weight: 400;
+}
+.what_bg h2{
+	margin: 0 auto;
+	font-size: 48px;
+    font-weight: 700;
+}

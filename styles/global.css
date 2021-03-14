@@ -1,0 +1,54 @@
+*{
+	box-sizing: border-box;
+}
+body {
+	background-color:black;
+	font-family: 'Helvetica Now Display';
+	font-family: 'Roboto', sans-serif;
+	margin: 0 auto;
+}
+header{
+	padding-top: 50px;
+}
+a {
+	color: white;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: white;
+}
+p{
+	color: white;
+
+}
+.container{
+	max-width: 1110px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.container_line{
+	width: 1110px;
+	margin: 0 auto;
+}
+
+.vl {
+    border-left: 1px solid #1D1D1D;
+    height: 4420px;
+    position: absolute;
+    left: 86.5%;
+    display: none;
+}
+.vl_two {
+    border-left: 1px solid #1D1D1D;
+    height: 4420px;
+    position: absolute;
+    display: none;
+
+}
+
+@media screen and (min-width:667px) {
+
+    .hamburger-menu{
+        display:none;
+    }
+}

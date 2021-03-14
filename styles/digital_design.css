@@ -1,0 +1,29 @@
+.digital_design{
+	width: 520px;
+	position: top;
+	float: left;
+	margin: 0;
+	color:white;
+}
+.digital_design h2{
+font-size: 36px;
+margin-bottom: 0px;
+}
+.digital_design p{
+margin-top: 0px;
+font-size: 16px;
+}
+.digital_design img{
+	margin-top: 25px;
+	width:50%;
+}
+.digital_design ul{
+	list-style-type: none;
+	margin-left: -40px;
+}
+.digital_design li{
+	display: inline;
+	border: 1px solid#F4692E;
+	padding: 1px;
+	background-color: #F4692E;
+}

@@ -1,0 +1,75 @@
+.best_works{
+	margin-top: 150px;
+}
+.best_works p{
+	margin: 0 auto;
+	font-size: 16px;
+	font-family: 'Helvetica Now Display';
+	font-weight: 400;
+}
+.best_works h1{
+	margin: 0 auto;
+	font-size: 48px;
+    font-weight: 700;
+}
+.best_works_orange_line{
+	width: 300px;
+	height: 5px;
+	background-color: #F4692E;
+}
+.works_img{
+	margin-top: 50px;
+	padding-left: 0;
+	display: flex;
+	justify-content: space-between;
+}
+.works_img_one{
+	opacity: 0.3;
+	transition: 0.5s;
+}
+.works_img_one:hover{
+	opacity: 1;
+	transition: 0.8s;
+}
+.works_img_two{
+	opacity: 0.3;
+	transition: 0.5s;
+}
+.works_img_two:hover{
+	opacity: 1;
+	transition: 0.8s;
+}
+.works_img_tree{
+	opacity: 0.3;
+	transition: 0.5s;
+}
+.works_img_tree:hover{
+	opacity: 1;
+	transition: 0.8s;
+}
+.works_img_inner{
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+}
+.works_img_four{
+	opacity: 0.3;
+	transition: 0.5s;
+}
+.works_img_four:hover{
+	opacity: 1;
+	transition: 0.8s;
+}.works_img_five{
+	opacity: 0.3;
+	transition: 0.5s;
+}
+.works_img_five:hover{
+	opacity: 1;
+	transition: 0.8s;
+}
+.works_img_one, .works_img_two,.works_img_tree,.works_img_four{
+width:  325px;
+}
+.works_img_five{
+width: 725px;
+}

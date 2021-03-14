@@ -1,0 +1,42 @@
+.our_team_bg{
+	background-color: #F15512;
+	padding: 20px 0;
+}
+.our_team{
+	margin-top: 150px;
+}
+.team_title p{
+margin: 0 auto;
+	font-size: 16px;
+	font-family: 'Helvetica Now Display';
+	font-weight: 400;
+}
+.team_title h1{
+	margin: 0 auto;
+	font-size: 48px;
+    font-weight: 700;
+}
+.team_orange_line{
+	width: 300px;
+	height: 5px;
+	background-color: #0C0C0C;
+}
+.team_img{
+	margin-top: 50px;
+
+}
+
+.our_team img{
+	width:300px;
+	height: 300px;
+}
+
+.our_team ul{
+	margin-left: -80px;
+}
+
+.our_team li{
+	margin-left: 40px;
+	display: inline;
+	color:white;
+}

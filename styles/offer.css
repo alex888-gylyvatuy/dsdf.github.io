@@ -1,0 +1,130 @@
+section{
+	margin-bottom: 0px;
+	}
+
+.offer h1{
+	font-family: 'Helvetica Now Display';
+	font-size: 82px;
+	margin-bottom: 0px;
+	margin-top: 50px;
+}
+.offer p{
+	color: #636363;
+	font-size: 16px;
+	margin-bottom: 30px;
+	font-weight: 300;
+}
+
+:root {
+	--animation-delay: 0;
+	--duration: 800ms;
+	--iterations: 1;
+}.title,
+.title::after {
+	        animation-delay: 0;
+	        animation-delay: var(--animation-delay, 2s);
+	        animation-iteration-count: 1;
+	        animation-iteration-count: var(--iterations, 1);
+	        animation-duration: 800ms;
+	        animation-duration: var(--duration, 800ms);
+	        animation-fill-mode: both;
+	        animation-timing-function: cubic-bezier(0.0, 0.0, 0.1, 1);
+}
+
+.title {
+	position: relative;
+	font-size: 6vw;
+	animation-name: text;
+	color: #FFF;
+	white-space: nowrap;
+	cursor: default;
+	}
+.title::after {
+		content: "";
+		position: absolute;
+		z-index: 999;
+		top: 0;
+		left: 0;
+		right: 30%;
+		bottom: 0;
+		background-color: white;
+		        transform: scaleX(0);
+		        transform-origin: 0 50%;
+		pointer-events: none;
+		        animation-name: revealer;
+	}
+@keyframes text {
+	from {
+		        clip-path: inset(0 100% 0 0);
+	}
+	to {
+		        clip-path: inset(0 0 0 0);
+	}
+}
+@keyframes revealer {
+	0%, 50% {
+		        transform-origin: 0 50%;
+	}
+	60%, 100% {
+		        transform-origin: 100% 50%;		
+	}
+	60% {
+		        transform: scaleX(1);
+	}
+	100% {
+		        transform: scaleX(0);
+	}
+}
+.title{
+	display: flex;
+}
+.bg{
+	background: url(img/pazl_newx.png);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: 300px;
+}
+.btn {
+	color: #FFF;
+	transition: all 0.5s;
+	position: relative;
+	text-decoration: none;
+	padding: 20px 40px;
+}
+.btn::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	background-color: #F4692E;
+	transition: all 0.3s;
+}
+.btn:hover::before {
+	opacity: 0 ;
+	transform: scale(0.5,0.5);
+}
+.btn::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: 0;
+	transition: all 0.3s;
+	border: 1px solid #F4692E;
+	transform: scale(1.2,1.2);
+}
+.btn:hover::after {
+	opacity: 1;
+	transform: scale(1,1);
+}
+.image_offer{
+	margin-top: 50px;
+	height: 300px;
+	float: right;
+}

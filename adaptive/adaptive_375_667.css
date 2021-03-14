@@ -1,0 +1,211 @@
+@import "styles/about_us.css";
+@import "styles/global.css";
+@import "styles/navigation.css";
+@import "styles/offer.css";
+@import "styles/what_we_do.css";
+@import "styles/digital_design.css";
+@import "styles/you_wiil_got.css";
+@import "styles/brand_idenfity.css";
+@import "styles/commerce.css";
+@import "styles/our_team.css";
+@import "styles/best_works.css";
+@import "styles/contact.css";
+@import "styles/contact.css";
+@import "styles/button_top.css";
+@media screen and (max-width:667px) {
+	.container{
+	max-width: 540px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+.vl{
+	display: none;
+}
+    .nav{
+        display:none;
+    }
+    .image_offer{
+    	display: none;
+    }
+    .offer h1{
+	font-family: 'Helvetica Now Display';
+	font-size: 55px;
+	margin-bottom: 0px;
+	margin-top: 20px;
+}
+.we_us{
+	width: 80%;
+	margin-top: 100px;
+}
+.we_line{
+	width: 150px;
+}
+.we_us h6{
+	padding-top: 20px;
+	margin: 0 auto;
+	font-size: 14px;
+	font-family: 'Helvetica Now Display';
+	font-weight: 400;
+}
+.we_us h2{
+	margin: 0 auto;
+	font-size: 32px;
+    font-weight: 700;
+}
+.we_us img{
+display: none;
+}
+.we_subs{
+	margin-top: 30px;
+	padding-right: 800px;
+}
+.we_subs_main{
+	font-size: 28px;
+}
+.we_us p{
+	padding-right: 0px;
+	font-size: 14px;
+	line-height: 36px;
+}
+#myBtn {
+   right: 100px; /* Place the button 30px from the right */
+}
+/*блок услуги*/
+.what_we_do{
+	margin-top: 80px;
+}
+.what_orange_line{
+	width: 150px;
+}
+.what_bg{
+	margin-bottom: 20px;
+}
+.what_bg p{
+	font-size: 14px;
+}
+.what_bg h2{
+	font-size: 32px;
+}
+/*диджитал*/
+.digital_design h2{
+font-size: 28px;
+margin-bottom: 0px;
+}
+.digital_design p{
+margin-top: 0px;
+font-size: 14px;
+}
+.digital_design img{
+	width:20%;
+	margin-left: 50px;
+	margin-bottom: 30px;
+}
+.you_will_got{
+height: 300px;
+}
+.you_will_got h2{
+display: none;
+}
+.you_get{
+	display: none;
+}
+.btn_position{
+	margin-top: 50px;
+	margin-left: 50px;
+}
+.you_btn_one {
+	padding: 10px 25px;
+	font-size: 12px;
+}
+/*лого*/
+.brand_idenfity{
+	width: 520px;
+	float: left;
+	margin: 0;
+	color:white;
+}
+.brand_idenfity h2{
+font-size: 28px;
+}
+.brand_idenfity p{
+font-size: 14px;
+}
+.brand_idenfity img{
+width:20%;
+margin-left: 50px;	
+margin-bottom: 30px;
+}
+.you_will_two{
+height: 300px;
+}
+.you_will_two h2{
+display: none;
+}
+.you_get_two{
+	display: none;
+}
+.btn_position_two{
+	margin-top: 50px;
+	margin-left: 50px;
+}
+.you_btn_two {
+	padding: 10px 25px;
+	font-size: 12px;
+}
+/*Баннеры*/
+.commerce{
+	width: 520px;
+	position: top;
+	float: left;
+	margin: 0;
+	color:white;
+}
+.commerce h2{
+font-size: 28px;
+}
+.commerce p{
+font-size: 14px;
+}
+.commerce img{
+width:20%;
+margin-left: 50px;	
+margin-bottom: 30px;
+}
+.you_will_tree{
+height: 300px;
+}
+.you_will_tree h2{
+display: none;
+}
+.you_get_tree{
+	display: none;
+}
+.btn_position_tree{
+	margin-top: 50px;
+	margin-left: 50px;
+}
+.you_btn_tree {
+	padding: 10px 25px;
+	font-size: 12px;
+}
+/*Баннеры*/
+.best_works{
+	margin-top: 100px;
+}
+.best_works p{
+font-size: 14px;
+}
+.best_works h1{
+font-size: 32px;
+}
+.best_works_orange_line{
+	width: 150px;
+}
+.works_img_one, .works_img_two,.works_img_tree,.works_img_four{
+width:  150px;
+}
+.works_img_five{
+width: 330px;
+}
+}
+  
